@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+                .header {
+                    width: auto;
+                
+                    border: 1px solid white;
+                    background-color: #fff;
+                    position: fixed;
+                
+                    left: 0px;
+                    top: 0px;
+                
+                
+                
+                }
+                
+                .logo img {
+                    float: left;
+                    width: 4%;
+                    height: auto;
+                    border-radius: 50%;
+                }
+                
+                .container {
+                    margin-top: 10px;
+                    padding: 10px;
+                    background-color: #3F51B5;
+                    width: 100vw;
+                    height: auto;
+                
+                
+                }
+                
+                .container a {
+                    text-decoration: none;
+                    padding: 1px;
+                    padding-left: 4px;
+                    padding-right: 4px;
+                    font-size: 1.5vw;
+                    background-color: #fff;
+                    border-radius: 8px;
+                    color: blue;
+                }
+                
+                .container a:hover {
+                    background-color: rgb(191, 191, 243);
+                    color: black;
+                }
+                
+                #hover {
+                    background-color: rgb(191, 191, 243);
+                    color: black;
+                }
+        .service 
+        {   
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 3vw;
+            margin: 3vw 3vw 0 0;
+            padding: 10px;
+            background-color: #b2b9e0;
+            width: 98%;
+            height: auto;
+            border: 5px solid blue;
+            border-radius: 5vw;
+        }   
+        hr
+{
+    margin:1vw 3vw;
+} 
+        .size
+        {
+            width: 3%;
+            height: auto;
+        }    
+        
+
+        .service img {
+
+            border: 3px solid black;
+            margin-left: 1vw;
+            border-top-left-radius: 30%;
+            border-bottom-right-radius: 30%;
+            width: 12%;
+            height: auto;
+
+        }
+
+        .service img:hover {
+            border: 3px solid rgb(127, 233, 7);
+            margin-left: 1vw;
+            border-top-left-radius: 30%;
+            border-bottom-right-radius: 30%;
+            width: 12%;
+            height: auto;
+        }
